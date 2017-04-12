@@ -63,7 +63,8 @@ public class MainScreen extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        logo.setIcon(new javax.swing.ImageIcon("/Users/ankith/Downloads/frogforce503_logo_2.png")); // NOI18N
+      
+        logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("frogforce503_logo_2.png"))); // NOI18N
 
         jLabel2.setText("Alliance");
 

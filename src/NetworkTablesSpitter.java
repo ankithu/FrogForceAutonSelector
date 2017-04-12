@@ -38,6 +38,7 @@ public class NetworkTablesSpitter {
 		}
 		
 		
+		
 		if (SelectorState.getDoNothingOption().equals(SelectorState.DO_NOTHING_OPTIONS.NO)){
 			table.putBoolean("doNothing", false);
 		}
@@ -52,6 +53,7 @@ public class NetworkTablesSpitter {
 		else{
 			table.putBoolean("hopper", true);
 		}
+		SelectorState.readyToSend = false;
 		
 	}
 }
